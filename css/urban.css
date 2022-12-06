@@ -13,10 +13,8 @@ clear: both; }
 
 .main{ 
     width: 100%;
-    height: 605px;
     background-image:url("../img/banner.png") ;
-    background-size: covrer ;
-    /* margin-top: -19px; */
+    background-size: cover;
     padding-top: 1px;
 }
 
@@ -46,6 +44,8 @@ margin-left:10px ;
 .banner { 
     text-align: center;
     margin-top: 200px;
+    position: relative;
+    bottom: 100px;
 }
 .banner h1{ 
    font-size: 50px;
@@ -71,7 +71,7 @@ margin-left:10px ;
 
 .mid-section{ 
     width: 100%;
-     height: 360px;  
+
     /* background-color: red; */
 }
 
@@ -171,14 +171,14 @@ margin-left:10px ;
 
 .big-last-section{ 
     width: 100%;
-    height: 1400px;
+    /* height: 1400px; */
     /* background-color: red;  */
     padding: 50px 0;
 }
 
 .last-section{ 
     /* background-color: yellow; */
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     text-align: center; 
 }
@@ -196,12 +196,30 @@ margin-left:10px ;
     float: left;
 }
 .box img{ 
-    width: 80%;
+    max-width: 70%;
     border-radius: 100%;
+    border: 3px solid rgb(184, 173, 173);
 }
 
 .margin{ 
-    margin-right: 4.5%;
-    margin-left: 4.5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right:5px;
+    margin-left: 5px;
 }
 
+.box p{ 
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.blue-button1{ 
+    background-color: rgb(14, 144, 196);
+    color: white;
+    border: none;
+    min-width:60px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 3px;
+    
+}
