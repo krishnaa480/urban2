@@ -272,7 +272,7 @@ margin-left:10px ;
 
     .mid-section1 .left1 { 
         position: relative;
-        top: 20px;
+        top: 21px;
         text-align: center;
     }
 
@@ -284,10 +284,11 @@ margin-left:10px ;
 
 
 
-    
     .last-section h1{ 
         font-size: 40px;
     }
+
+
 
     .box{ 
         width: 100%; 
@@ -296,9 +297,13 @@ margin-left:10px ;
 
     }
 
+
+
     .box img{ 
         margin-top: 30px;
     }
+
+
 
     .box p{ 
         
